@@ -1,0 +1,46 @@
+:host {
+  width: 100%;
+}
+
+.tp-text-field[type=textarea] {
+  height: auto !important;
+}
+
+.tp-text-field {
+  height: 48px;
+  border-radius: 5px;
+  --_label-text-line-height: 1;
+  --md-outlined-text-field-container-shape: 8px;
+  --md-outlined-text-field-outline-color: transparent;
+  --md-outlined-text-field-hover-outline-color: transparent;
+  --md-outlined-text-field-focus-outline-color: transparent;
+  --md-outlined-text-field-label-text-color: #9a9ca0;
+  --md-outlined-text-field-hover-label-text-color: #9a9ca0;
+  --md-outlined-text-field-focus-label-text-color: #9a9ca0;
+  --md-outlined-text-field-input-text-color: black;
+  --md-outlined-text-field-focus-input-text-color: black;
+  --md-outlined-text-field-hover-input-text-color: #9b9ca0;
+  background-color: #eceff4;
+  width: 100%;
+  font-family: Roboto, Helvetica Neue, sans-serif;
+}
+
+:host([appearance=light]) .tp-text-field {
+  height: 48px;
+  border-radius: 5px;
+  --_label-text-line-height: 1;
+  background-color: rgba(217, 225, 236, 0.3);
+  --md-outlined-text-field-label-text-color: white;
+  --md-outlined-text-field-hover-label-text-color: white;
+  --md-outlined-text-field-focus-label-text-color: white;
+  --md-outlined-field-disabled-content-color: #f3f3f3;
+  --md-outlined-field-disabled-label-text-color: #f3f3f3;
+  --md-outlined-field-disabled-content-opacity: 1;
+  --md-outlined-field-disabled-label-text-opacity: 1;
+  --md-outlined-text-field-input-text-color: rgb(228, 228, 228);
+  --md-outlined-text-field-focus-input-text-color: white;
+  --md-outlined-text-field-hover-input-text-color: white;
+  width: 100%;
+}
+
+/*# sourceMappingURL=kuba-textfield.css.map */

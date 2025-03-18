@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TpTextField custom elements in JSDOM 1`] = `"<md-outlined-text-field class="tp-text-field"></md-outlined-text-field>"`;
