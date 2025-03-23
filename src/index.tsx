@@ -2,6 +2,7 @@
 import { render } from "solid-js/web";
 
 import "./kuba-text-field/kuba-textfield";
+import "./kuba-text-field/kuba-textfield-working";
 
 import App from "./App";
 
@@ -11,6 +12,7 @@ declare module "solid-js" {
   namespace JSX {
     interface IntrinsicElements {
       "kuba-textfield": unknown;
+      "kuba-textfield-working": unknown;
     }
   }
 }
